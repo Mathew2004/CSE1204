@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Web de Casas de Vacaciones</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="navbar">
+                
+                <div class="logo">
+                    <img src="logo.jpg" width="300px" height="89px" alt="Logo de la web">
+                </div>
+                <nav>
+                    <ul>
+                        <li class="dropdown"><a href="#">Properties <span>&#9662;
+                                </span></a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Option 1</a></li>
+                                <li><a href="#">Option 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">For Our Guests <span>&#9662;
+                                </span></a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Option 1</a></li>
+                                <li><a href="#">Option 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Reservations</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="contact-btn"><a href="tel:+19045213630">904-521-3630</a></div>
+            </div>
+            
+        </header>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Welcome to My Vacation Home Website </h1>
+                <p>Boost your business with awesome branding and marketing materials</p>
+               
+            </div>
+        </section>
+        <div class="iframe-container">
+            <iframe src="https://alojamientos.rumboalsur.es/?age=9002"
+                    style="width:100%; min-height:520px;" scrolling="no" frameborder="0"></iframe>
+        </div>
+        <footer>
+            <p>&copy;
+
+                2024 Mi Web de Casas de Vacaciones. Todos los derechos reservados.</p>
+        </footer>
+        <script src="https://alojamientos.rumboalsur.es/assets/js/vendors/iframeResizer.min.js"></script>
+        <script>iFrameResize({
+                log: false
+            });
+        </script>
+        <script> // Toggle the dropdown menu on small screens
+
+            document.querySelector('.navbar').addEventListener('click', function () {
+                this.classList.toggle('active');
+            });
+
+
+        </script>
+    </body>
+
+    </html>

@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "source_location": "cpp",
+        "stacktrace": "cpp"
+    },
+    "java.project.sourcePaths": [
+        "swing",
+        "lab-8",
+        "lab-7.1"
+    ]
+}

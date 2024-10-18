@@ -1,0 +1,1 @@
+{"name":"Local: Maximize","url":"d:\\Programming\\CP\\Module-3\\Module-1\\Maximize.cpp","tests":[{"id":1725903569827,"input":"7\n10\n7\n21\n100\n2\n1000\n6","output":"5\n6\n18\n98\n1\n750\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\CP\\Module-3\\Module-1\\Maximize.cpp","group":"local","local":true}
